@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="Virtual Doughnuts Factory" Height="450" Width="800" ResizeMode="NoResize" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
     <Grid>
-        <Label x:Name="lblTitle" Content="Doughnuts - Bake &amp; Sale" HorizontalAlignment="Center" Margin="0,23,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="24"/>
-        <GroupBox x:Name="gbRaised" Header="Raised" Margin="146,70,423,245" FontWeight="Bold">
+        <Label x:Name="lblTitle" Content="Doughnuts - Bake &amp; Sale" HorizontalAlignment="Left" Margin="256,34,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="24"/>
+        <GroupBox x:Name="gbRaised" Header="Raised" Margin="146,85,423,230" FontWeight="Bold">
             <Canvas>
                 <Label x:Name="lblGlazed" Content="Glazed" Canvas.Left="35" Canvas.Top="14" FontWeight="Normal"/>
                 <TextBox x:Name="txtGlazedRaised" Canvas.Left="110" Canvas.Top="18" Text="0" TextWrapping="Wrap" Width="65" FontWeight="Normal" IsReadOnly="True"/>
@@ -16,7 +16,7 @@
                 <TextBox x:Name="txtSugarRaised" Canvas.Left="110" Canvas.Top="54" Text="0" TextWrapping="Wrap" Width="65" FontWeight="Normal" IsReadOnly="True"/>
             </Canvas>
         </GroupBox>
-        <GroupBox x:Name="gbFilled" Header="Filled" Margin="428,70,141,245" FontWeight="Bold">
+        <GroupBox x:Name="gbFilled" Header="Filled" Margin="428,85,141,230" FontWeight="Bold">
             <Canvas>
                 <Label x:Name="lblLemonFilled" Content="Lemon" Canvas.Left="35" Canvas.Top="10" FontWeight="Normal"/>
                 <TextBox x:Name="txtLemonFilled" Canvas.Left="116" Canvas.Top="14" Text="0" TextWrapping="Wrap" Width="65" FontWeight="Normal" IsReadOnly="True"/>
@@ -26,7 +26,7 @@
                 <TextBox x:Name="txtVanillaFilled" Canvas.Left="116" Canvas.Top="64" Text="0" TextWrapping="Wrap" Width="65" FontWeight="Normal" IsReadOnly="True"/>
             </Canvas>
         </GroupBox>
-        <GroupBox x:Name="gbSale" Header="Current Sale" Margin="146,211,141,32" FontWeight="Bold">
+        <GroupBox x:Name="gbSale" Header="Current Sale" Margin="146,217,141,26" FontWeight="Bold">
             <Canvas>
                 <Label x:Name="lblQuantity" Content="Quantity" Canvas.Left="21" Canvas.Top="10" FontWeight="Normal"/>
                 <TextBox x:Name="txtQuantity" Canvas.Left="82" Canvas.Top="14" Text="0" TextWrapping="Wrap" Width="26" FontWeight="Normal"/>
