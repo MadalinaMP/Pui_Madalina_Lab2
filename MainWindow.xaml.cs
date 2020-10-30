@@ -277,8 +277,6 @@ namespace Pui_Madalina_Lab2
                     txtVanillaFilled.Text = mFilledVanilla.ToString();
                     break;
             }
-        }
-
-       
+        }   
     }
 }
